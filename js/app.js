@@ -19,7 +19,6 @@ $(document).ready(function(){
         $(this).css({left: '520px'});
       }
     );
-    // animate hadouken right
   })
   .mouseup(function(){
     $('.ryu-throwing').hide();
