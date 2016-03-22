@@ -8,7 +8,6 @@ $(document).ready(function(){
     $('.ryu-ready').hide();
   })
   .mousedown(function(){
-    console.log('mousedown');
     // play hadouken sound
     $('.ryu-ready').hide();
     $('.ryu-throwing').show();
@@ -16,8 +15,8 @@ $(document).ready(function(){
     // animate hadouken right
   })
   .mouseup(function(){
-    console.log('mouseup');
-    // ryu back to ready position
+    $('.ryu-throwing').hide();
+    $('.ryu-ready').show();
   });
 });
 
