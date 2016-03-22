@@ -4,6 +4,7 @@
 
 body {
   background-color: black;
+  font-family: 'Indie Flower', cursive;
 }
 
 .main {
@@ -19,9 +20,18 @@ body {
 .instructions {
   position: relative;
   left: 20px;
-  top: 150px;
+  top: 120px;
   color: black;
-  z-index: 20;
+  display: inline-block;
+}
+
+.instructions h2 {
+  font-weight: 1000;
+  font-size: 48px;
+}
+
+.instructions h3 {
+  font-size: 32px;
 }
 
 .ryu {
